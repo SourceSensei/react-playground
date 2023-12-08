@@ -4,6 +4,8 @@ import About from "./pages/About.jsx";
 import Nav from "./components/Nav.jsx";
 import Posts from "./pages/Posts.jsx";
 import Post from "./pages/Post.jsx";
+import UseRefExample from "./hooks/UseRefExample.jsx";
+import UseReducerExample from "./hooks/UseReducerExample.jsx";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/posts/:id" element={<Post />} />
       </Routes>
       <Nav />
+      <UseRefExample />
+      <UseReducerExample />
     </Router>
   );
 }
